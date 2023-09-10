@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /*
-* main - prints "c if else statement"
-* Return: always return 0.
+* main - print "c if else statement"
+* Return: Always return 0.
 */
 int main(void)
 {
