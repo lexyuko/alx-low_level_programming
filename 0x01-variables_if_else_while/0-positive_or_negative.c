@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-* main - print "c if else statement"
+/**
+* main - "c if else statement"
 * Return: Always return 0.
 */
 int main(void)
