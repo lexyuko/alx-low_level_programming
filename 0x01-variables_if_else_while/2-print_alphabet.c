@@ -2,19 +2,18 @@
 #include <stdlib.h>
 
 /**
- *main - "print the alphabet"
- *Return: Always return 0.
- */
+*main - "prints the alphabet"
+*Return: Alway return 0.
+*/
 
 int main(void)
 {
 	char i;
 
+
 	for (i = 'a'; i <= 'z'; i++)
 
-
 		putchar(i);
-		putchar('\n');
-
+	putchar('\n');
 	return (0);
 }
