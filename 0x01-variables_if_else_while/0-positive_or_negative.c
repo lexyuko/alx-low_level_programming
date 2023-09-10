@@ -3,7 +3,7 @@
 #include <stdio.h>
 /* more headers goes there*/
 /*
-* main: c if else statement.
+* main - c if else statement.
 * return: always return 0.
 */
 int main(void)
