@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
-* main - C if else statement.
+* main - prints "c if else statement"
 * Return: always return 0.
 */
 int main(void)
