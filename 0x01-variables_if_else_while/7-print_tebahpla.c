@@ -2,17 +2,16 @@
 #include <stdlib.h>
 
 /**
- * main - "print 10 digits"
+ * main - "print in reverse"
  * Return: Always return 0.
  */
 
 int main(void)
 {
-	int a;
+	char rev;
 
-	for (a = 0; a < 10; a++)
-
-		putchar('0' + a);
+	for (rev = 'a'; rev <= 'z'; rev--)
+		putchar(rev);
 	putchar('\n');
-	return (0);
+		return (0);
 }
