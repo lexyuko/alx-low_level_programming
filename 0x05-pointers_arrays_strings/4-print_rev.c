@@ -14,10 +14,10 @@ void print_revs(char *s)
 	{
 		if (s[rev] != '\0')
 		{
-			rev++
+			rev++;
 		} else
 		{
-			break
+			break;
 		}
 		for (rev = 0; rev >= 0; rev--)
 		{
