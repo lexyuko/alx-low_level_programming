@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_revs - prints the string in reverse
+ * print_rev - prints the string in reverse
  * @s: the string value
  * Return: return void
  */
@@ -19,7 +19,7 @@ void print_rev(char *s)
 		{
 			break;
 		}
-		for (rev = 0; rev >= 0; rev--)
+		for (rev--; rev >= 0; rev--)
 		{
 			_putchar(s[rev]);
 		}
