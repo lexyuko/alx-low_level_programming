@@ -8,7 +8,18 @@
 
 void _puts(char *str)
 {
-	if (str != '\0')
-		_putchar(str);
+	int num = 0;
+
+	while (num >= 0)
+	{
+	if (str[num] != '\0')
+	{
+		_putchar(str[num]);
+		num++;
+	} else
+	{
+		num = -1;
 	_putchar('\n');
+	}
+
 }
