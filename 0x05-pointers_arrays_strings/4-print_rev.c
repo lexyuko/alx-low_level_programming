@@ -6,7 +6,7 @@
  * Return: return void
  */
 
-void print_revs(char *s)
+void print_rev(char *s)
 {
 	int rev = 0;
 
