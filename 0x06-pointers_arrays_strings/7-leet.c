@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *leet - encodes a string into 1337
- *@s: input string.
- *Return: the pointer to dest.
+ * leet - encodes a string into 1337
+ * @s: input string.
+ * Return: the pointer to dest.
  */
 
 char *leet(char *s)
@@ -17,13 +17,12 @@ char *leet(char *s)
 		for (i = 0; i < 5; i++)
 		{
 			if (*(s + n) == lower_case_letters[i] || *(s + n) == upper_case_letters[i])
-
 			{
 				*(s + n) = numbers[i];
 				break;
 			}
-				n++;
 		}
+		n++;
 	}
-		return (s);
+	return (s);
 }
