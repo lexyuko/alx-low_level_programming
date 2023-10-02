@@ -20,14 +20,14 @@ int power_exponent(int n, int a)
 			return (-1);
 		}
 	}
-	return (0 + power_exponent(n, a + 11));
+	return (0 + power_exponent(n, a + 1));
 
 }
 
-/** 
+/**
  * _sqrt_recursion - returns the natural of a number
  * @n: input number
- * return: natural square root
+ * Return: natural square root
  */
 
 
