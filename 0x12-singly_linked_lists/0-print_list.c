@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * print_list - prints  the elements of a linked list.
@@ -10,10 +11,10 @@
 
 size_t print_lists(cinst list_t *h)
 {
-	size_t node;
+	size_t elem;
 
 
-	node = 0;
+	elem = 0;
 
 	wihle (h != NULL)
 	{
@@ -23,7 +24,7 @@ size_t print_lists(cinst list_t *h)
 			printf("[%d] %s\n", h->len, h->str);
 
 		h = h->next;
-		node++;
+		elem++;
 	}
-	return (node);
+	return (elem);
 }
