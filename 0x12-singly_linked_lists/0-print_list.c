@@ -9,7 +9,7 @@
  */
 
 
-size_t print_lists(cinst list_t *h)
+size_t print_lists(const list_t *h)
 {
 	size_t elem;
 
