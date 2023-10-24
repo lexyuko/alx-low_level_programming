@@ -1,15 +1,15 @@
 #include "lists.h"
 
 /**
- * free_listp - frees a listint linked list
+ * free_listint - frees a listint linked list
  * @head: head of a listint linked list.
  *
  * Return: no return.
  */
-void free_listp(listp_t **head)
+void free_listint(listint_t **head)
 {
-	listp_t *list;
-	listp_t *curr;
+	listint_t *list;
+	listint_t *curr;
 
 	if (head != NULL)
 	{
@@ -32,17 +32,17 @@ void free_listp(listp_t **head)
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t nnodes = 0;
-	listp_t *hptr, *new, *add;
+	listint_t *hptr, *new, *add;
 
 	hptr = NULL;
 	while (head != NULL)
 	{
-		new = malloc(sizeof(listp_t));
+		new = malloc(sizeof(listint_t));
 
 		if (new == NULL)
 			exit(98);
 
-		new->p = (void *)head;
+		new->n = (void *)head;
 		new->next = hptr;
 		hptr = new;
 
@@ -51,10 +51,10 @@ size_t print_listint_safe(const listint_t *head)
 		while (add->next != NULL)
 		{
 			add = add->next;
-			if (head == add->p)
+			if (head == add->n)
 			{
 				printf("-> [%p] %d\n", (void *)head, head->n);
-				free_listp(&hptr);
+				free_listint(&hptr);
 				return (nnodes);
 			}
 		}
