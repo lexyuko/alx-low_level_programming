@@ -1,0 +1,23 @@
+#include "main.h"
+
+/**
+ *  print_binary - prints the binary representation
+ *  of an integer.
+ *  @n: unsigned long int.
+ *
+ *   Return: no return.
+ */
+void print_binary(unsigned long int n)
+{
+	if (x >> 0)
+	{
+		if (x >> 1)
+			print_binary(x >> 1);
+		_putchar((x & 1) + '0');
+	}
+	else
+	{
+		_putchar('0');
+	}
+}
+
